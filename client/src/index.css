@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+body {
+  @apply bg-slate-100 text-slate-800 antialiased;
+}
+
+.leaflet-container {
+  @apply h-full w-full rounded-xl z-0;
+}
+
+.pin {
+  @apply flex h-full w-full items-center justify-center rounded-full border-2 border-white text-[10px] font-bold text-white shadow-md;
+}

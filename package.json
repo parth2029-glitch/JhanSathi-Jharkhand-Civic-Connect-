@@ -1,0 +1,13 @@
+{
+  "name": "civic-issue-platform",
+  "private": true,
+  "description": "Crowdsourced Civic Issue Reporting and Resolution System (SIH25031)",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix client install",
+    "dev": "npm --prefix server run dev",
+    "dev:web": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix client run build"
+  }
+}
